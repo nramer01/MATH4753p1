@@ -11,9 +11,9 @@
 #' iter = 100
 #' n = 5
 #' p = 0.7
-#' mybin(100,5,0.7)
+#' simbin(100,5,0.7)
 #'
-mybin=function(iter,n, p){
+simbin=function(iter,n, p){
   # make a matrix to hold the samples
   #initially filled with NA's
   my.matrix=matrix(NA,nr=n,nc=iter, byrow=TRUE)
