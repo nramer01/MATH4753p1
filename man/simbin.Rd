@@ -13,7 +13,9 @@ simbin(iter, n, p)
 The Bionomial Experiment plot, and n values
 }
 \description{
-Binomial Experiment Simulation
+The Binomial Experiment Simulation function comes from Lab 5. This function produces
+a simulation of the Binomial experiment by placing random values of size n, iterated
+iter times with a probability of p.
 }
 \examples{
 iter = 100
