@@ -1,0 +1,30 @@
+---
+title: "MATH4753p1 Vignette"
+author: "Natalie Ramer"
+date: ' `r format(Sys.Date(), format="%A, %B, %d, %Y")`'
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{MATH4753p1-Vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(MATH4753p1)
+```
+
+In summary, this package was created as a place to hold functions used for statistical analysis through R-Studio, as used in labs for MATH4753. These functions have a variety of uses: 
+
+* T-tests
+* Pivotal Statistics and evaluation through calculation and graphs 
+* Data set to be evaluated and analyzed
+* Confidence Interval Calculations
+* Experimental Simulations
+* And more. 
